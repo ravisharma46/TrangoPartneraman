@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">@color/app_color</color>
+	<color name="colorPrimaryDark">#B71C1C</color>
+	<color name="colorAccent">@android:color/black</color>
+
+	<color name="app_color">#07EFA3</color>
+
+	<color name="app_caption_dark_grey">#5a5a5a</color>
+
+	<color name="spring_green">#07EFA3</color>
+	<color name="dark_spring_green">#177245</color>
+	<color name="red_dark">#990000</color>
+	<color name="yellow">#FFAC30</color>
+	<color name="home_background">#F7F7F7</color>
+	<color name="select_textview_color">#E6E6E6</color>
+</resources>

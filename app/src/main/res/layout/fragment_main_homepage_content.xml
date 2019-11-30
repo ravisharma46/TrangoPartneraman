@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_marginHorizontal="16dp"
+	android:orientation="vertical"
+	android:overScrollMode="always"
+	tools:ignore="UnusedAttribute,HardcodedText,ContentDescription"
+	tools:context=".main_homepage.fragments.MainHomepageContentFragment">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="?actionBarSize"
+		android:weightSum="2"
+		android:orientation="horizontal" >
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:padding="8dp"
+			android:background="@color/select_textview_color"
+			android:text="Show QR"
+			android:gravity="center"/>
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:padding="8dp"
+			android:background="@drawable/rectangle_border"
+			android:text="Request Money"
+			android:gravity="center"/>
+	</LinearLayout>
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="?actionBarSize"
+		android:layout_gravity="center"
+		android:src="@drawable/trango_logo" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="@font/gotham_book"
+		android:layout_gravity="center"
+		android:text="Accepted Here" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="24dp"
+		android:fontFamily="@font/gotham_book"
+		android:text="Scan this qr to pay" />
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:src="@drawable/qr" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:gravity="center"
+		android:layout_marginVertical="48dp"
+		android:orientation="horizontal"
+		android:weightSum="2" >
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="start"
+			android:fontFamily="@font/gotham_book"
+			android:text="Order QR STICKER" />
+		<View
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:background="@android:color/black" />
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:fontFamily="@font/gotham_book"
+			android:gravity="end"
+			android:text="Payment Notifications" />
+	</LinearLayout>
+
+</LinearLayout>
